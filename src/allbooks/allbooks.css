@@ -1,0 +1,7 @@
+.booklist{
+    display: flex;
+    flex-direction: row;
+    width: 780px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}

@@ -1,11 +1,12 @@
 import React from 'react'
+import Main  from '../main/Main'
  
-function App() {
- return (
- <div>
- <p>MANO page</p>
- </div>
- )
-}
+ const App = () => {
+     return (
+         <div>
+             <Main/>
+         </div>
+     )
+ }
  
-export default App
+ export default App
