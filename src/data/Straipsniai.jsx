@@ -1,18 +1,18 @@
 const straipsniai = [
 {
     id:1,
-    pavadinimas:"Katinu priezura",
-    aprasymas:"KARANTINO METU KATINU NEPRIZIURIME",
+    pavadinimas:"Knygu pirkimas",
+    aprasymas:"Karantino metu knygoms suteikiama 30% akcija",
 },
 {
     id:2,
-    pavadinimas:"Sunu priezura",
-    aprasymas:"KARANTINO METU sunu NEPRIZIURIME",
+    pavadinimas:"Norint pirkti knyga reikia",
+    aprasymas:"Norint pirkti knyga reikia ivesti tinkamus duomenis ir banko korteles numeri",
 },
 {
     id:3,
     pavadinimas:"Driezu priezura",
-    aprasymas:"KARANTINO METU driezu NEPRIZIURIME",
+    aprasymas:"Knygu pirkimas internetu yra NEGRAZINAMAS",
 }
 ]
 export default straipsniai

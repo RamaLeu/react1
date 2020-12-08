@@ -1,4 +1,5 @@
 import React from 'react';
+import Sell from '../sell/Sell';
 import './book.css';
 export default function Book(props) {
     
@@ -10,6 +11,7 @@ export default function Book(props) {
             <p className="author">{props.author}</p>
             <p className="title">{props.title}</p>
             <p className="price">{props.price}</p>
+            <Sell/>
         </div>   
         </>
     )

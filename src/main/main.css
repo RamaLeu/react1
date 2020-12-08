@@ -1,4 +1,11 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("253342.jpg");
+}
 .box{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
