@@ -3,28 +3,15 @@ import Allbooks from '../allbooks/Allbooks';
 import './main.css';
 import straipsniai from "../data/Straipsniai";
 import Article from "../article/Article";
+import Form from "../form/Form";
 
 
 
-class Main extends Component{
-  constructor(){
-    super();
-  }
-  render() {
-    const duomenysStraipsniai = straipsniai.map(straipsnis=>
-      <Article data=
-      {{key:straipsnis.id,
-        title:straipsnis.pavadinimas,
-        description:straipsnis.aprasymas
-        }}/>)
-    return (
-      <main>
-        <div className="row">
-          {duomenysStraipsniai}
-        </div>
-        <Allbooks/>
-      </main>
-    )
-  }
+function Main(){
+  return(
+    <div className="container">
+      <Form/>
+    </div>
+  )
 }
 export default Main;
