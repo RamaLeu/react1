@@ -1,4 +1,5 @@
 import React from "react"
+import './Search.css';
 
 function Search(props) {
     if(props.data.Response !== "False"){
@@ -8,22 +9,18 @@ function Search(props) {
             <table className="table">
                 <thead>
                     <tr>
-                        <th>#</th>
-                        <th>Title</th>
-                        <th>Description</th>
-                        <th>Director</th>
-                        <th>Runtime</th>
-                        <th>Foto</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>1</th>
-                        <td>{props.data.Title}</td>
-                        <td>{props.data.Plot}</td>
-                        <td>{props.data.Director}</td>
-                        <td>{props.data.Runtime}</td>
-                        <td><img src = {props.data.Poster}/></td>
+                        <div className="line">
+                        <td className="text"></td>
+                        <td className="text">{props.data.Title}</td>
+                        <td className="text">{props.data.Plot}</td>
+                        <td className="text">{props.data.Director}</td>
+                        <td className="text">{props.data.Runtime}</td>
+                        <td className="text"><img src = {props.data.Poster}/></td>
+                        </div>
                     </tr>
                 </tbody>
             </table>

@@ -1,0 +1,15 @@
+.line{
+    border: 2px solid black;
+    color:white;
+}
+.container{
+    border: 2px solid black;
+    background-color: #80b0ff;
+}
+body{
+    background-color: #c4fcff;
+}
+.text{
+    text-align: center;
+    align-items: center;
+}
